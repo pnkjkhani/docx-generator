@@ -1,0 +1,86 @@
+{
+  "productInfo": {
+    "rows": [
+      { "label": "Product Name", "value": "L-Leucine" },
+      { "label": "Batch No", "value": "55233389" },
+      { "label": "Manufacturing Date", "value": "2023-08-14" },
+      { "label": "Expiry Date", "value": "2026-08-13" },
+      { "label": "CAS No", "value": "61-90-5" },
+      { "label": "Standard", "value": "USP33" }
+    ]
+  },
+  "testTables": [
+    {
+      "mainHeading": "TEST SPECIFICATIONS",
+      "columns": ["TESTS", "SPECIFICATION", "RESULTS"],
+      "columnWidths": [25, 45, 30],
+      "subTables": [
+        {
+          "name": "ASSAY",
+          "tests": [
+            {
+              "test": "Assay",
+              "spec": "98.5% ~ 101.5%",
+              "result": "99.7%"
+            }
+          ]
+        },
+        {
+          "name": "PHYSICAL CONTROL",
+          "tests": [
+            {
+              "test": "Appearance",
+              "spec": "White crystals or crystalline powder",
+              "result": "Conforms"
+            },
+            {
+              "test": "Identification",
+              "spec": "Positive",
+              "result": "Conforms"
+            },
+            {
+              "test": "Specific Rotation",
+              "spec": "+14.9°~ +17.3°",
+              "result": "+15.5°"
+            },
+            {
+              "test": "pH",
+              "spec": "5.5 ~ 7.0",
+              "result": "5.8"
+            },
+            {
+              "test": "Loss on drying",
+              "spec": "<0.20%",
+              "result": "0.14%"
+            },
+            {
+              "test": "Residue on Ignition",
+              "spec": "<0.40%",
+              "result": "0.03%"
+            }
+          ]
+        },
+        {
+          "name": "CHEMICAL CONTROL",
+          "tests": [
+            {
+              "test": "Heavy Metals",
+              "spec": "≤0.0015%",
+              "result": "<0.0015%"
+            },
+            {
+              "test": "Lead (Pb)",
+              "spec": "≤2ppm",
+              "result": "<2ppm"
+            },
+            {
+              "test": "Arsenic (As)",
+              "spec": "≤2ppm",
+              "result": "<2ppm"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+} 
